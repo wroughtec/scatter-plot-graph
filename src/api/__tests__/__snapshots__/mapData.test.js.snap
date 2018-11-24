@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapData should convert map to JSON 1`] = `
+Object {
+  "x": Array [
+    18.71230688,
+    13.61320583,
+    17.58212046,
+    0.33767329,
+    11.34590321,
+    65.25484819,
+  ],
+  "y": Array [
+    11034.12,
+    16340.26,
+    25200.85,
+    503.22,
+    7029.99,
+    38744.4,
+  ],
+}
+`;
