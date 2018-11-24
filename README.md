@@ -10,10 +10,10 @@ Recommended to use [Yarn](https://yarnpkg.com/en/docs/install#mac-stable) rather
 You should be able to run the following command after the installation procedure below.
 
     $ node --version
-    v8.12.0
+    v10.13.0
 
     $ npm --version
-    5.60
+    6.4.1
 
 ---
 ## Install
