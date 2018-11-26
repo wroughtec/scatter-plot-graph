@@ -6,8 +6,7 @@ const typeDefs = gql`
   }
 
   type Coordinates {
-    x: [Float]
-    y: [Float]
+    points: [[Float]]
   }
 `;
 

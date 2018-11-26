@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScatterPlotChart should render loading state initially 1`] = `
+<div
+  class="c-spinner"
+>
+  <div
+    class="c-spinner__wrapper"
+  >
+    <svg
+      class="c-spinner__icon"
+      height="1em"
+      preserveAspectRatio="xMinYMid meet"
+      width="1em"
+    >
+      <use
+        xlink:href="#spinner"
+      />
+    </svg>
+  </div>
+</div>
+`;

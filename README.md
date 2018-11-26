@@ -38,6 +38,9 @@ To run the tests
 
 ---
 ## TODOS
+
+- Add a route to the Node server to render the app
+- Add a build of the app
 ---
 
 ## Languages & tools
@@ -49,6 +52,9 @@ To run the tests
 - [Parcel](https://parceljs.org/) to handle the bundling and running of the server
 - [Prettier](https://github.com/prettier/prettier) keeps our code correctl formatted.
 - [React](https://reactjs.org/) library used to build the UI
+- [Highcharts](https://www.highcharts.com/) library to render the charts
+- [Apollo Server](https://www.apollographql.com/docs/apollo-server/) API using Apollo server and Graphql
+- [Hapi](https://hapijs.com/) Node server to run the API
 
 ### CSS
 - [Stylelint](https://github.com/stylelint/stylelint) is used to prevent CSS errors

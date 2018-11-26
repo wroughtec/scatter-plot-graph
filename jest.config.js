@@ -7,8 +7,8 @@ module.exports = {
   },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
   setupFiles: ['./tests/setupTests.js'],
-  globals: {
-    TZ: 'UTC'
-  },
-  collectCoverageFrom: ['client/**/*.{js|jsx}', 'api/**/*.js']
+  collectCoverageFrom: ['client/**/*.{js|jsx}', 'api/**/*.js'],
+  moduleNameMapper: {
+    '\\.(css|less|sass|scss)$': '<rootDir>/__mocks__/styleMock.js'
+  }
 };

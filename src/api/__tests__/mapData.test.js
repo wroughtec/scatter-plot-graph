@@ -16,6 +16,6 @@ describe('mapData', () => {
   });
 
   it('should return empty object when no data', () => {
-    expect(mapData()).toEqual({});
+    expect(mapData()).toEqual([]);
   });
 });

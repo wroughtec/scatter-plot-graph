@@ -29,4 +29,4 @@ const StartServer = async () => {
   console.log(`Server running at: ${server.info.uri}`);
 };
 
-StartServer().catch(error => console.log(error));
+StartServer();

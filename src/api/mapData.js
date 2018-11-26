@@ -1,24 +1,19 @@
 const newLine = /\r\n|\r|\n/;
 
 const mapData = data => {
-  const coordinates = {};
+  const coordinates = [];
 
   if (data) {
     data
       .trim()
       .split(newLine)
       .map((item, i) => {
-        const columns = item.split(',');
+        // skip the headers
+        if (i === 0) return null;
 
-        if (i === 0) {
-          return columns.forEach(column => {
-            coordinates[column] = [];
-          });
-        }
+        const numberItems = item.split(',').map(col => parseFloat(col));
 
-        return Object.keys(coordinates).forEach((key, index) => {
-          coordinates[key].push(parseFloat(columns[index]));
-        });
+        return coordinates.push(numberItems);
       });
   }
 
