@@ -2,7 +2,7 @@ import React from 'react';
 import { MockedProvider } from 'react-apollo/test-utils';
 import { COORDINATES_MOCK } from 'mocks/getCoordinates.mock';
 import { ScatterPlotChart } from 'components/ScatterPlotChart/ScatterPlotChart';
-import { render, fireEvent, cleanup, waitForElement } from 'react-testing-library';
+import { render, cleanup } from 'react-testing-library';
 import wait from 'waait';
 
 describe('ScatterPlotChart', () => {
